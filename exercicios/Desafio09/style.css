@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 10px;
+}
+
+.foto {
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.foto span {
+    display: block;
+    margin-top: 8px;
+}
